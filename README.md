@@ -68,7 +68,10 @@ CropWise provides a secure and transparent marketplace enabling farmers and buye
 - Direct farmer–buyer interaction  
 - Crop listings and order management  
 - Real-time pricing insights  
-- Zero middlemen  
+- Zero middlemen
+<p align="center">
+  <img width="1905" height="904" alt="Screenshot 2025-11-26 162758" src="https://github.com/user-attachments/assets/981127b2-9e32-417f-8dd2-f56ba5f9838c" />
+</p>
 
 ---
 
