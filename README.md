@@ -1,4 +1,4 @@
-Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed to empower farmers with AI-powered crop recommendations, disease diagnosis, and a direct agricultural marketplace to maximize yields and reduce losses.
+
 
 <p align="center">
   <img src="assets/Est.%202025%20(1)%20(Custom).png" alt="CropWise Logo" width="110"/>
@@ -8,10 +8,20 @@ Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed 
 <h3 align="center">AI-Driven Agriculture Intelligence Platform</h3>
 <p align="center"><i>Farming Made Easy • Est. 2025</i></p>
 
+Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed to empower farmers with AI-powered crop recommendations, disease diagnosis, and a direct agricultural marketplace to maximize yields and reduce losses.
+
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Rudra8984/Scarecrow?tab=MIT-1-ov-file)
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue)](https://python.org)
 [![Framework](https://img.shields.io/badge/Framework-React-red)](https://react.dev/)
 [![Framework](https://img.shields.io/badge/Framework-Django-red)](https://www.djangoproject.com/)
+[![TensorFlow](https://img.shields.io/badge/ML-TensorFlow-orange)](https://www.tensorflow.org/)
+[![OpenCV](https://img.shields.io/badge/CV-OpenCV-blue)](https://opencv.org/)
+[![Firebase](https://img.shields.io/badge/Backend-Firebase-yellow)](https://firebase.google.com/)
+[![GCP](https://img.shields.io/badge/Cloud-Google_Cloud_Platform-blue)](https://cloud.google.com/)
+![CI/CD](https://img.shields.io/badge/CI/CD-GitHub_Actions-black)
+![Docker](https://img.shields.io/badge/Container-Docker-blue)
+![Model Accuracy](https://img.shields.io/badge/Model_Accuracy-92%25-brightgreen)
+
 ---
 
 ## 📘 Overview
