@@ -1,0 +1,91 @@
+<svg width="1400" height="1050" viewBox="0 0 1400 1050" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .panel { fill:#ffffff; stroke:#dfe8df; stroke-width:2; rx:12; }
+  .label { font:700 22px 'Arial', sans-serif; fill:#264d26; }
+  .desc { font:500 16px 'Arial', sans-serif; fill:#4d6f4d; }
+  .title { font:800 34px 'Arial', sans-serif; fill:#264d26; }
+  .subtitle { font:600 18px 'Arial', sans-serif; fill:#3c5c3c; }
+  .connector { stroke:#8fb88f; stroke-width:2.4; fill:none; marker-end:url(#arrow); }
+</style>
+
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#8fb88f"/>
+  </marker>
+</defs>
+
+<rect width="1400" height="1050" fill="#ffffff"/>
+
+<!-- HEADER -->
+<rect x="40" y="30" width="1320" height="110" class="panel"/>
+<text x="70" y="80" class="title">CROPWISE — SYSTEM ARCHITECTURE</text>
+<text x="70" y="110" class="subtitle">Green Agritech Intelligence Platform</text>
+
+<!-- USERS -->
+<rect x="480" y="165" width="440" height="90" class="panel"/>
+<text x="510" y="210" class="label">Users</text>
+<text x="510" y="240" class="desc">Farmers • Buyers</text>
+
+<!-- FRONTEND -->
+<rect x="250" y="280" width="900" height="120" class="panel"/>
+<text x="280" y="330" class="label">CropWise Frontend</text>
+<text x="280" y="360" class="desc">React.js Web Interface</text>
+
+<!-- LINE USER → FRONTEND -->
+<line x1="700" y1="255" x2="700" y2="280" class="connector"/>
+
+<!-- THREE FEATURE PANELS -->
+<rect x="60" y="430" width="380" height="140" class="panel"/>
+<text x="90" y="475" class="label">Crop Input Form</text>
+<text x="90" y="505" class="desc">NPK • pH • Temperature • Rainfall</text>
+
+<rect x="510" y="430" width="380" height="140" class="panel"/>
+<text x="540" y="475" class="label">Disease Analyzer</text>
+<text x="540" y="505" class="desc">Image Upload → CV Model</text>
+
+<rect x="960" y="430" width="380" height="140" class="panel"/>
+<text x="990" y="475" class="label">Marketplace UI</text>
+<text x="990" y="505" class="desc">Listings • Buyers • Sellers</text>
+
+<!-- LINES FRONTEND → FEATURES -->
+<line x1="350" y1="400" x2="250" y2="430" class="connector"/>
+<line x1="700" y1="400" x2="700" y2="430" class="connector"/>
+<line x1="1050" y1="400" x2="1150" y2="430" class="connector"/>
+
+<!-- BACKEND API -->
+<rect x="60" y="600" width="1280" height="120" class="panel"/>
+<text x="90" y="650" class="label">Backend APIs (Django)</text>
+<text x="90" y="680" class="desc">Prediction • Disease • Marketplace Microservices</text>
+
+<!-- LINES FEATURES → API -->
+<line x1="250" y1="570" x2="250" y2="600" class="connector"/>
+<line x1="700" y1="570" x2="700" y2="600" class="connector"/>
+<line x1="1150" y1="570" x2="1150" y2="600" class="connector"/>
+
+<!-- BOTTOM ROW: MODELS + STORAGE -->
+<rect x="60" y="760" width="420" height="170" class="panel"/>
+<text x="90" y="810" class="label">Crop ML Model</text>
+<text x="90" y="840" class="desc">RandomForest • DecisionTree</text>
+
+<rect x="500" y="760" width="420" height="170" class="panel"/>
+<text x="530" y="810" class="label">CV Disease Model</text>
+<text x="530" y="840" class="desc">CNN Leaf Disease Classifier</text>
+
+<rect x="940" y="760" width="420" height="170" class="panel"/>
+<text x="970" y="810" class="label">Data Storage</text>
+<text x="970" y="840" class="desc">User Data • Marketplace Data</text>
+
+<!-- LINES API → MODELS -->
+<line x1="270" y1="720" x2="270" y2="760" class="connector"/>
+<line x1="710" y1="720" x2="710" y2="760" class="connector"/>
+<line x1="1150" y1="720" x2="1150" y2="760" class="connector"/>
+
+<!-- GEMINI BOT -->
+<rect x="450" y="960" width="500" height="70" class="panel"/>
+<text x="470" y="1005" class="label">Gemini Chatbot</text>
+<text x="470" y="1030" class="desc">Recommendations • Q&A</text>
+
+<!-- LINES MODELS → GEMINI -->
+<line x1="510" y1="930" x2="510" y2="960" class="connector"/>
+<line x1="890" y1="930" x2="890" y2="960" class="connector"/>
+</svg>
