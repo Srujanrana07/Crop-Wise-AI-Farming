@@ -1,81 +1,153 @@
-# 🌱 Smart Agriculture Revolution
+Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed to empower farmers with AI-powered crop recommendations, disease diagnosis, and a direct agricultural marketplace to maximize yields and reduce losses.
 
-**Empowering Farmers with AI-Driven Insights and Direct Market Access**
+<p align="center">
+  <img src="assets/Est.%202025%20(1)%20(Custom).png" alt="CropWise Logo" width="110"/>
+</p>
+
+<h1 align="center">🌾 CropWise</h1>
+<h3 align="center">AI-Driven Agriculture Intelligence Platform</h3>
+<p align="center"><i>Farming Made Easy • Est. 2025</i></p>
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Rudra8984/Scarecrow?tab=MIT-1-ov-file)
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue)](https://python.org)
 [![Framework](https://img.shields.io/badge/Framework-React-red)](https://react.dev/)
 [![Framework](https://img.shields.io/badge/Framework-Django-red)](https://www.djangoproject.com/)
+---
 
-Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed to empower farmers with AI-powered crop recommendations, disease diagnosis, and a direct agricultural marketplace to maximize yields and reduce losses.
+## 📘 Overview
+
+**CropWise** is a unified smart agriculture platform that provides AI-powered crop recommendations, real-time disease detection, and an integrated agricultural marketplace.  
+It is designed to help farmers make accurate, data-driven decisions while enabling direct access to buyers—reducing losses and improving profitability.
 
 ---
 
-## 🚀 Features
+## 🔍 Key Capabilities
 
-### 1. AI-Powered Crop Recommendation System
-- **Input Parameters**: Farmers enter environmental data (N, P, K levels, temperature, humidity, pH, rainfall) to receive **AI-driven crop recommendations** (e.g., rice varieties suited to the conditions).  
-- **Cultivation Guidance**: Detailed resources on planting techniques, watering schedules, fertilizer usage, and harvesting methods for the recommended crop.  
-![Crop Prediction Demo](https://github.com/Rudra8984/Scarecrow/blob/main/scarecrow-front/img/Screenshot%202025-03-24%20205124.png)  
+### 🌾 Smart Crop Recommendation Engine
+CropWise evaluates soil and environmental parameters such as **NPK levels, temperature, humidity, rainfall, and pH** to suggest the most suitable crops for cultivation.
 
-### 2. Crop Disease Analyzer with Chatbot
-- **Image Upload**: Farmers upload images of infected crops to identify diseases (e.g., bacterial blight, fungal infections).  
-- **Instant Solutions**: Receive actionable remedies, including recommended insecticides, organic treatments, and preventive measures.  
-- **AI Chatbot**: Ask follow-up questions about the diagnosis or solutions via an integrated chatbot.  
-![Disease Analyzer Demo1](https://github.com/Rudra8984/Scarecrow/blob/main/scarecrow-front/img/Screenshot%202025-03-24%20210546.png)  
-![Disease Analyzer Demo2](https://github.com/Rudra8984/Scarecrow/blob/main/scarecrow-front/img/Screenshot%202025-03-24%20210810.png)  
-### 3. Agricultural Marketplace
-- **Direct Trade**: Farmers list their produce for sale, and buyers/sellers connect directly, eliminating middlemen.  
-- **Price Transparency**: Real-time market prices and trends to help farmers make informed selling decisions.  
+- Intelligent crop suitability scoring  
+- Climate and region compatibility  
+- Detailed cultivation guidance  
+
+<p align="center">
+  <img src="https://github.com/Rudra8984/Scarecrow/blob/main/scarecrow-front/img/Screenshot%202025-03-24%20205124.png" width="75%">
+</p>
 
 ---
 
-## 🛠️ Technologies Used
-- **AI/ML Models**: Python, TensorFlow/Keras (for crop prediction and disease detection).  
-- **Backend**: Django, Firebase (marketplace database).  
-- **Frontend**: HTML/CSS/JavaScript, React.js  
-- **Chatbot**: Gemini API.  
-- **Hosting**: GCP, Firebase Hosting (frontend).  
+### 🩺 AI-Based Crop Disease Identification
+A computer-vision module that identifies diseases from uploaded leaf images within seconds.
+
+- Instant disease prediction  
+- Treatment and remedy recommendations  
+- Prevention and care guidance  
+- Integrated chatbot assistant powered by Gemini  
+
+<p align="center">
+  <img src="https://github.com/Rudra8984/Scarecrow/blob/main/scarecrow-front/img/Screenshot%202025-03-24%20210546.png" width="75%">
+  <br>
+  <img src="https://github.com/Rudra8984/Scarecrow/blob/main/scarecrow-front/img/Screenshot%202025-03-24%20210810.png" width="75%">
+</p>
 
 ---
 
-## 🖥️ Usage
-1. **Crop Recommendation**  
-   - Navigate to the **Crop Prediction** tab.  
-   - Enter soil/environmental parameters (N, P, K, temperature, etc.).  
-   - Click **Generate Prediction** to view the optimal crop and cultivation guide.  
+### 🛒 Digital Agricultural Marketplace
+CropWise provides a secure and transparent marketplace enabling farmers and buyers to trade produce directly.
 
-2. **Disease Detection**  
-   - Go to **Disease Analyzer**, upload an image of the affected crop.  
-   - Review the diagnosis and treatment suggestions.  
-   - Use the **Chatbot** to ask follow-up questions (e.g., "How to apply neem oil?").  
-
-3. **Marketplace**  
-   - Create a profile as a Farmer/Buyer.  
-   - List crops for sale or browse available produce.  
+- Direct farmer–buyer interaction  
+- Crop listings and order management  
+- Real-time pricing insights  
+- Zero middlemen  
 
 ---
 
-## 🌍 Impact
-- **Increased Yield**: Data-driven decisions reduce crop failure risks.  
-- **Cost Efficiency**: Minimize pesticide misuse with targeted solutions.  
-- **Economic Growth**: Direct marketplace access ensures fair prices for farmers.  
+## 🧠 System Architecture
+
+### High-Level Flow
+```
+User Input → AI Engines → Insights (Prediction/Diagnosis) → Web Interface → Marketplace Services
+```
+### 🏗️ System Architecture Diagram
+
+<p align="center">
+  <img src="assets/architecture.svg" alt="CropWise System Architecture" width="90%">
+</p>
+
+
+### Components
+- Machine Learning Models (crop recommendation)
+- Computer Vision Models (disease detection)
+- Conversational AI (Gemini)
+- Django backend services
+- React-based user interface
+- Firebase & GCP for hosting and data storage
 
 ---
 
-## 👥 Contributors
-- [Rudra Prasad Jena](https://www.linkedin.com/in/rudra-prasad-jena-/)  
-- [Srujan Rana](https://www.linkedin.com/in/srujan-rana/)
-- [Sarthak Kalia](https://www.linkedin.com/in/sarthak-kalia/)
+## 🛠️ Technology Stack
+
+### AI & Machine Learning
+- Python 3.12+
+- TensorFlow / Keras  
+- Scikit-Learn  
+- OpenCV  
+
+### Backend
+- Django  
+- Firebase Realtime Database  
+- REST APIs  
+
+### Frontend
+- React.js  
+- HTML / CSS / JavaScript  
+
+### Cloud & Deployment
+- Google Cloud Platform  
+- Firebase Hosting  
+- CI/CD pipelines  
+
+---
+
+## 📑 How to Use
+
+### 1️⃣ Crop Recommendation
+1. Navigate to **Crop Recommendation**.  
+2. Enter soil/environment data.  
+3. Receive recommended crops and detailed cultivation steps.
+
+### 2️⃣ Disease Analyzer
+1. Upload an infected crop image.  
+2. View AI-generated diagnosis and treatment plan.  
+3. Use the chatbot for follow-up questions.
+
+### 3️⃣ Marketplace
+1. Create a Farmer/Buyer profile.  
+2. Add produce listings or explore available crops.  
+3. Connect directly with buyers/sellers.
+
+---
+
+## 📈 Impact & Value
+
+### For Farmers
+- Improved yield through data-backed decisions  
+- Reduced crop loss via early diagnosis  
+- Fair pricing through direct marketplace access  
+
+### For Organizations
+- Scalable agriculture intelligence  
+- Consistent data collection  
+- Support for extension services and outreach  
 
 ---
 
 ## 📄 License
-Distributed under the MIT License. See `LICENSE` for details.
+
+This project is released under the **MIT License**.  
+See the `LICENSE` file for more information.
 
 ---
 
-## 🙌 Acknowledgments
-- GDG Community for the Solution Challenge platform.  
-- Kaggle datasets for crop and disease training models.  
-- Farmers and agricultural experts for validation and feedback.  
+<p align="center">© 2025 CropWise — Revolutionizing Smart Agriculture</p>
+
