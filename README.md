@@ -71,8 +71,9 @@ User Input → AI Engines → Insights (Prediction/Diagnosis) → Web Interface 
 ### 🏗️ System Architecture Diagram
 
 <p align="center">
-  <img src="assets/CropWise_Architecture_final.svg" alt="CropWise System Architecture" width="90%">
+  <img width="928" height="692" alt="Screenshot 2025-11-26 162046" src="https://github.com/user-attachments/assets/9c5cfe54-f6d1-4bf8-a04b-45a2c4c6604d" />
 </p>
+
 
 
 ### Components
