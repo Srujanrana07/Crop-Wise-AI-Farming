@@ -29,6 +29,12 @@ Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed 
 **CropWise** is a unified smart agriculture platform that provides AI-powered crop recommendations, real-time disease detection, and an integrated agricultural marketplace.  
 It is designed to help farmers make accurate, data-driven decisions while enabling direct access to buyers—reducing losses and improving profitability.
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=PFJfsLwCm8U">
+    <img src="https://img.youtube.com/vi/PFJfsLwCm8U/maxresdefault.jpg" alt="CropWise Demo Video" width="70%"/>
+  </a>
+</p>
+
 ---
 
 ## 🔍 Key Capabilities
