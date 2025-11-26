@@ -1,8 +1,9 @@
 
 
 <p align="center">
-  <img src="assets/Est.%202025%20(1)%20(Custom).png" alt="CropWise Logo" width="110"/>
+  <img src="assets/Est.%202025%20(1)%20(Custom).png" alt="CropWise Logo" width="220"/>
 </p>
+  
 
 <h1 align="center">🌾 CropWise</h1>
 <h3 align="center">AI-Driven Agriculture Intelligence Platform</h3>
@@ -19,7 +20,6 @@ Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed 
 [![Firebase](https://img.shields.io/badge/Backend-Firebase-yellow)](https://firebase.google.com/)
 [![GCP](https://img.shields.io/badge/Cloud-Google_Cloud_Platform-blue)](https://cloud.google.com/)
 ![CI/CD](https://img.shields.io/badge/CI/CD-GitHub_Actions-black)
-![Docker](https://img.shields.io/badge/Container-Docker-blue)
 ![Model Accuracy](https://img.shields.io/badge/Model_Accuracy-92%25-brightgreen)
 
 ---
