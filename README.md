@@ -35,6 +35,19 @@ It is designed to help farmers make accurate, data-driven decisions while enabli
   </a>
 </p>
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=PFJfsLwCm8U">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" 
+         alt="YouTube Logo" 
+         width="120"/>
+  </a>
+</p>
+
+<p align="center">
+  <b>Click to know more</b>
+</p>
+
+
 ---
 
 ## 🔍 Key Capabilities
