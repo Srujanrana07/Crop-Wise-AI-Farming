@@ -17,7 +17,7 @@ Welcome to **Smart Agriculture Revolution** – an all-in-one platform designed 
 [![Framework](https://img.shields.io/badge/Framework-Django-red)](https://www.djangoproject.com/)
 [![TensorFlow](https://img.shields.io/badge/ML-TensorFlow-orange)](https://www.tensorflow.org/)
 [![OpenCV](https://img.shields.io/badge/CV-OpenCV-blue)](https://opencv.org/)
-[![Firebase](https://img.shields.io/badge/Backend-Firebase-yellow)](https://firebase.google.com/)
+[![Firebase](https://img.shields.io/badge/Frontend-Firebase-yellow)](https://firebase.google.com/)
 [![GCP](https://img.shields.io/badge/Cloud-Google_Cloud_Platform-blue)](https://cloud.google.com/)
 ![CI/CD](https://img.shields.io/badge/CI/CD-GitHub_Actions-black)
 ![Model Accuracy](https://img.shields.io/badge/Model_Accuracy-92%25-brightgreen)
